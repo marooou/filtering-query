@@ -1,0 +1,58 @@
+{
+    "type": "object",
+    "properties": {
+      "product": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["Appliances", "Apps & Games", "Beauty", "Books", "Handmade", "Electronics"]
+            }
+          }
+        }
+      },
+      "price": {
+        "type": "object",
+        "properties": {
+            "currency_code": {
+                "type": "string",
+                "enum": ["GBP", "EUR", "USD"]
+            },
+            "value": {
+                "type": "number"
+            }
+        }
+      },
+      "availability": {
+        "type": "number"
+      },
+      "supplier": {
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "enum": ["USA", "England", "France", "bus"]
+            },
+            "tags": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "enum": ["fast-delivery", "card-payment"]
+                }
+            }
+        }
+      },
+      "state": {
+          "type": "string",
+          "enum": ["available", "withdrawn"]
+      }
+    }
+  }
