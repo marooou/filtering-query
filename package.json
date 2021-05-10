@@ -1,10 +1,10 @@
 {
-  "name": "object-filtering",
+  "name": "filtering-query",
   "version": "0.1.0-alpha.1",
   "description": "A simple query language (DSL) for filtering out objects with type assist support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:marchmiel/object-filtering.git",
+  "repository": "git@github.com:marchmiel/filtering-query.git",
   "author": "marchmiel (marochm@gmail.com)",
   "license": "MIT",
   "scripts": {

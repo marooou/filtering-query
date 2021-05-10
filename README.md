@@ -1,6 +1,5 @@
 Simple expression language for objects filtering
 =======
-[![Build Status](https://travis-ci.com/marchmiel/object-filtering.svg?branch=master)](https://travis-ci.com/marchmiel/object-filtering)
 
 A simple, safe, JavaScript expression engine, allowing end-users to enter arbitrary expressions without p0wning you.
 
@@ -8,14 +7,14 @@ Installation
 ------------------
 
 ```
-npm i --save object-filtering
+npm i --save filtering-query
 ```
 
 Quick start
 ------------------
 
 ```javascript
-import {compile} from 'object-filtering'
+import {compile} from 'filtering-query'
 
 // Input from a user (e.g. a search filter)
 const expression = 'transactions <= 5 and customer.name = "My customer"';
