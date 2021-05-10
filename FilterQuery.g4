@@ -72,8 +72,8 @@ LT: '<';
 LE: '<=';
 APPROX: '~=';
 
-/*  */
-ATTRIBUTE_NAME: [a-zA-Z_][a-zA-Z0-9_.]*; // [a-zA-Z_]+ ('.' [a-zA-Z0-9_]+)*
+/* TODO: this should be changed to: [a-zA-Z_]+ ('.' [a-zA-Z0-9_]+)* */
+ATTRIBUTE_NAME: [a-zA-Z_][a-zA-Z0-9_.]*; // 
 
 NUMBER: (([-+])? ([0-9])+ | ([-+])? ([0-9])* '.' ([0-9])+);
 

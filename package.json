@@ -4,7 +4,7 @@
   "description": "A simple query language (DSL) for filtering out objects with type assist support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:marchmiel/filtrex.git",
+  "repository": "git@github.com:marchmiel/object-filtering.git",
   "author": "marchmiel (marochm@gmail.com)",
   "license": "MIT",
   "scripts": {

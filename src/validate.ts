@@ -65,7 +65,7 @@ class SuggestionResolver {
         let currSchema = this.schema
         for (let i = 0; i < attrPath.length && currSchema; i++) {
             if (!currSchema.properties[attrPath[i]]) {
-                return this.emptySuggestions() // TODO: error message with hint
+                return this.emptySuggestions()
             }
             currSchema = currSchema.properties[attrPath[i]]
         }
